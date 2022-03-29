@@ -12,6 +12,12 @@ app.config["DEBUG"] = True
 
 @app.route("/")
 def hello_world():
+    with open("database.json", 'w') as file:
+        #data = json.load(file)
+        dic = {"specialites": get_all_specialites(), "utilisateurs": get_all_users()}
+        file.write(json.dumps(dic))
+        #file.write(json.dumps(get_all_users()))
+        file.close()
     return "<p>Hello, World!</p>"
 
 
@@ -47,6 +53,5 @@ def getMedecinById(id):
 @app.route("/et/<int:id>", methods=['GET'])
 def get_med_et(id):
     return jsonify(get_medecin_in_etablissement(id))
-
 
 app.run()

@@ -1,0 +1,112 @@
+{
+  "specialites": [
+    {
+      "id": 1,
+      "nom": "Pediatrie"
+    },
+    {
+      "id": 2,
+      "nom": "Gynecologie"
+    },
+    {
+      "id": 3,
+      "nom": "Ophtalmologie"
+    },
+    {
+      "id": 4,
+      "nom": "Rhumatologie"
+    },
+    {
+      "id": 5,
+      "nom": "Dermatologie"
+    },
+    {
+      "id": 6,
+      "nom": "Cardiologie"
+    },
+    {
+      "id": 7,
+      "nom": "Urologie"
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 1,
+      "nom": "SAMAKE",
+      "prenoms": "Adama",
+      "email": "samake@gmail.com",
+      "contact": "+22899595766",
+      "age": 20,
+      "adresse": "Zanguera",
+      "type": "M",
+      "sexe": "patient",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    },
+    {
+      "id": 2,
+      "nom": "ABALO",
+      "prenoms": "Koffi",
+      "email": "abalo@gmail.com",
+      "contact": "+22899595760",
+      "age": 22,
+      "adresse": "Zanguera",
+      "type": "M",
+      "sexe": "patient",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    },
+    {
+      "id": 3,
+      "nom": "AMAH",
+      "prenoms": "Kwatcha",
+      "email": "amah@gmail.com",
+      "contact": "+22899435766",
+      "age": 36,
+      "adresse": "Avedji",
+      "type": "F",
+      "sexe": "medecin",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    },
+    {
+      "id": 4,
+      "nom": "AKA",
+      "prenoms": "Kossi",
+      "email": "aka@gmail.com",
+      "contact": "+22899995766",
+      "age": 20,
+      "adresse": "Zanguera",
+      "type": "M",
+      "sexe": "patient",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    },
+    {
+      "id": 5,
+      "nom": "AMAKE",
+      "prenoms": "Adam",
+      "email": "amake@gmail.com",
+      "contact": "+22890595766",
+      "age": 40,
+      "adresse": "Zanguera",
+      "type": "M",
+      "sexe": "medecin",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    },
+    {
+      "id": 6,
+      "nom": "MOKE",
+      "prenoms": "Regis",
+      "email": "moke@gmail.com",
+      "contact": "+22899095766",
+      "age": 33,
+      "adresse": "Tsevie",
+      "type": "M",
+      "sexe": "medecin",
+      "mdp": "123456",
+      "localisation": "1.3902U049U290U+1.1231U93I13112"
+    }
+  ]
+}

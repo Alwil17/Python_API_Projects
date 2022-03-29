@@ -32,3 +32,9 @@ def get_user(id):
         if utilisateur['id'] == id:
             return utilisateur
     return {}
+
+def get_user_by_email(email):
+    for utilisateur in utilisateurs:
+        if utilisateur['email'] == email:
+            return utilisateur
+    return {}

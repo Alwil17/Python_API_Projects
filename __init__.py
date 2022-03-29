@@ -1,6 +1,10 @@
+from controllers.auth import Auth
 from controllers.etablissement_controller import get_all_etablissements
 from controllers.med_et_controller import get_medecin_in_etablissement
 
+Auth()
+print(Auth.connected_user)
+print("\n---------- Prenez facilement un rendez-vous médical ----------")
 axe = input("Saisissez l'axe cible: ")
 lieu = input("Saisissez le lieu de la consultation: ")
 
